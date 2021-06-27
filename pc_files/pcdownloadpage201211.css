@@ -1,0 +1,132 @@
+/* common */
+body { margin:0; padding:0; }
+
+/* layout */
+#pcdownloadpage_201211 .float_l { float:left; }
+#pcdownloadpage_201211 .float_r { float:right; }
+#pcdownloadpage_201211 .inner_container { width:1200px; margin:0 auto; }
+#pcdownloadpage_201211 .section_box { position:relative; height:720px; padding-top:80px; font-size:24px; line-height:1.5em; overflow:hidden; }
+#pcdownloadpage_201211 .section_box .float_l, .section_box .float_r { padding:100px 30px 0; }
+#pcdownloadpage_201211 #section1 { height:753px; text-align:center; background:url(../images/pcdownloadpage201211/section1_bg.jpg) no-repeat center center; }
+#pcdownloadpage_201211 #section2 { background:url(../images/pcdownloadpage201211/section2_bg.jpg) no-repeat center center; }
+#pcdownloadpage_201211 #section3 { background:url(../images/pcdownloadpage201211/section3_bg.jpg) no-repeat center center; }
+#pcdownloadpage_201211 #section4 { background:url(../images/pcdownloadpage201211/section4_bg.jpg) no-repeat center center; }
+#pcdownloadpage_201211 .section_title { font-size:60px; font-weight:normal; line-height:72px; margin:25px 0; }
+#pcdownloadpage_201211 .section_btn { margin-top:54px; }
+#pcdownloadpage_201211 .pic_container { position:relative; margin-top:20px; }
+#pcdownloadpage_201211 .download_btn { display:inline-block; text-decoration:none; font-size: 22px;; height:54px; line-height:54px; padding:0 36px; min-width:150px; text-align:center; background:#5292fe; color:#fff; border-radius:30px; transition:0.2s; }
+#pcdownloadpage_201211 .download_btn:hover { background:#4587f5; transform:scale(1.05); }
+
+/* sections */
+#pcdownloadpage_201211 #section1 .pic_container { width:1000px; height:406px; position:absolute; bottom:0; left:50%; margin-left:-500px; }
+#pcdownloadpage_201211 #section1 img { border-radius:6px 6px 0 0; }
+#pcdownloadpage_201211 #section1 .pic1 { position:relative; z-index:1; box-shadow:0 15px 40px rgba(100,137,200,0.5); }
+#pcdownloadpage_201211 #section1 .pic2, #section1 .pic3 { position:absolute; bottom:0; box-shadow:0 10px 40px rgba(255,255,255,1); }
+#pcdownloadpage_201211 #section1 .pic2 { left:10px; }
+#pcdownloadpage_201211 #section1 .pic3 { right:10px; }
+#pcdownloadpage_201211 #section1 .section_btn { margin-top:34px; }
+#pcdownloadpage_201211 #section2 { color:#fae1b8; }
+#pcdownloadpage_201211 #section2 .section_title img { margin:0 -20px -58px -38px; }
+#pcdownloadpage_201211 #section2 .download_btn { color:#000; background:#eec988;
+	background: -moz-linear-gradient(left, rgba(250,228,193,1) 0%, rgba(236,198,129,1) 100%)!important;
+	background: -webkit-linear-gradient(left, rgba(250,228,193,1) 0%,rgba(236,198,129,1) 100%)!important;
+	background: linear-gradient(to right, rgba(250,228,193,1) 0%,rgba(236,198,129,1) 100%)!important;
+}
+#pcdownloadpage_201211 #section2 .pic_container { padding-top:140px; }
+#pcdownloadpage_201211 #section2 .pic1 { border-radius:6px; }
+#pcdownloadpage_201211 #section2 .pic2 { position:absolute; right:-112px; top:20px; box-shadow:0 10px 50px rgba(240,201,132,0.7); border-radius:6px; transform-origin:left center; }
+#pcdownloadpage_201211 #section3 .pic1 { border-radius:6px; box-shadow:0 20px 40px rgba(68,92,156,0.2); }
+#pcdownloadpage_201211 #section3 .pic2 { position:absolute; left:-20px; top:50px; border-radius:16px; box-shadow:0 10px 50px rgba(245,172,150,0.8);  transform-origin:center 140%; }
+#pcdownloadpage_201211 #section3 .pic3 { position:absolute; left:247px; top:201px; }
+#pcdownloadpage_201211 #section4 { color:#FFF; }
+#pcdownloadpage_201211 #section4 .pic2, #section4 .pic3, #section4 .pic4 { position:absolute; left:-10px; top:72px; }
+#pcdownloadpage_201211 #section4 .pic2 img { transform-origin:80% bottom; }
+#pcdownloadpage_201211 #section4 .pic3 { left:200px; top:42px; }
+#pcdownloadpage_201211 #section4 .pic4 { left:500px; top:130px; transform:rotate(20deg); }
+
+/* animations */
+#pcdownloadpage_201211 .revealOnScroll { visibility:hidden; }
+#pcdownloadpage_201211 .revealOnScroll.animated { visibility:visible; }
+#pcdownloadpage_201211 #section1 .pic1 { -webkit-animation:fadeInUP 0.6s both; animation:fadeInUP 0.6s both;  }
+#pcdownloadpage_201211 #section1 .pic2 { -webkit-animation:fadeInLeft 0.6s both; animation:fadeInLeft 0.6s both; -webkit-animation-delay:0.3s; animation-delay:0.3s;  }
+#pcdownloadpage_201211 #section1 .pic3 { -webkit-animation:fadeInRight 0.6s both; animation:fadeInRight 0.6s both; -webkit-animation-delay:0.3s; animation-delay:0.3s; }
+#pcdownloadpage_201211 #section2 .pic_container.ani .pic1 { -webkit-animation:fadeInRight 0.6s both; animation:fadeInRight 0.6s both; }
+#pcdownloadpage_201211 #section2 .pic_container.ani .pic2 { -webkit-animation:ZoomIn 0.5s both cubic-bezier(0.175, 0.885, 0.32, 1.2); animation:ZoomIn 0.5s both cubic-bezier(0.175, 0.885, 0.32, 1.2); -webkit-animation-delay:0.4s; animation-delay:0.6s; }
+#pcdownloadpage_201211 #section3 .pic_container.ani .pic1 { -webkit-animation:fadeInLeft 0.6s both; animation:fadeInLeft 0.6s both; }
+#pcdownloadpage_201211 #section3 .pic_container.ani .pic2 { -webkit-animation:ZoomIn 0.6s both cubic-bezier(0.175, 0.885, 0.32, 1.1); animation:ZoomIn 0.6s both cubic-bezier(0.175, 0.885, 0.32, 1.1); -webkit-animation-delay:0.4s; animation-delay:0.6s; }
+#pcdownloadpage_201211 #section3 .pic_container.ani .pic3 { -webkit-animation:Heartbeat 1.4s both ease-out infinite; animation:Heartbeat 1.4s both ease-out infinite; -webkit-animation-delay:1.8s; animation-delay:1.8s; }
+#pcdownloadpage_201211 #section4 .pic_container.ani .pic1 { -webkit-animation:fadeInRight 0.6s both; animation:fadeInRight 0.6s both; }
+#pcdownloadpage_201211 #section4 .pic_container.ani .pic2 { -webkit-animation:fadeInLeft 0.6s both cubic-bezier(0.175, 0.885, 0.32, 2.275); animation:fadeInLeft 0.6s both cubic-bezier(0.175, 0.885, 0.32, 2.275); -webkit-animation-delay:0.4s; animation-delay:0.4s; }
+#pcdownloadpage_201211 #section4 .pic_container.ani .pic2 img { -webkit-animation:ZoomIn 0.6s both; animation:ZoomIn 0.6s both; -webkit-animation-delay:0.4s; animation-delay:0.4s; }
+
+@-webkit-keyframes fadeIn{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+@keyframes fadeIn{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+@-webkit-keyframes fadeInDown{
+	0%{opacity:0;-webkit-transform:translateY(-60px)}
+	100%{opacity:1;-webkit-transform:translateY(0)}
+}
+@keyframes fadeInDown{
+	0%{opacity:0;transform:translateY(-60px)}
+	100%{opacity:1;transform:translateY(0)}
+}
+@-webkit-keyframes fadeInUP{
+	0%{opacity:0;-webkit-transform:translateY(60px)}
+	100%{opacity:1;-webkit-transform:translateY(0)}
+}
+@keyframes fadeInUP{
+	0%{opacity:0;transform:translateY(60px)}
+	100%{opacity:1;transform:translateY(0)}
+}
+@-webkit-keyframes fadeInLeft{
+	0%{opacity:0;-webkit-transform:translateX(60px); }
+	100%{opacity:1;-webkit-transform:translateX(0); }
+}
+@keyframes fadeInLeft{
+	0%{opacity:0;transform:translateX(60px); }
+	100%{opacity:1;transform:translateX(0); }
+}
+@-webkit-keyframes fadeInRight{
+	0%{opacity:0;-webkit-transform:translateX(-60px); }
+	100%{opacity:1;-webkit-transform:translateX(0); }
+}
+@keyframes fadeInRight{
+	0%{opacity:0;transform:translateX(-60px); }
+	100%{opacity:1;transform:translateX(0); }
+}
+@-webkit-keyframes ZoomIn{
+	0%{opacity:0;-webkit-transform:scale(.3)}
+	100%{opacity:1;-webkit-transform:scale(1)}
+}
+@keyframes ZoomIn {
+	0%{opacity:0;transform:scale(.3)}
+	100%{opacity:1;transform:scale(1)}
+}
+@-webkit-keyframes Heartbeat {
+	0%{ opacity:0;-webkit-transform:scale(.3) }
+	10%{ opacity:1; }
+	100%{ opacity:0;-webkit-transform:scale(1) }
+}
+@keyframes Heartbeat {
+	0%{opacity:0;transform:scale(.3) }
+	10%{ opacity:1; }
+	100%{opacity:0;transform:scale(1) }
+}
+
+
+@media screen and (max-width:1024px) {/* small screen */
+	#pcdownloadpage_201211 .inner_container { width:1000px; }
+	#pcdownloadpage_201211 .section_box { height:660px; }
+	#pcdownloadpage_201211 .section_box .float_l, .section_box .float_r { padding:100px 35px 0; }
+	#pcdownloadpage_201211 .section_title { font-size:54px; line-height:68px; }
+	#pcdownloadpage_201211 .pic_container { zoom:0.8; margin-top:70px; }
+	#pcdownloadpage_201211 #section1 { height:670px; }
+	#pcdownloadpage_201211 #section2 .pic2 { right:-60px; }
+	#pcdownloadpage_201211 #section4 .pic_container { zoom:0.75; }
+	#pcdownloadpage_201211 #section4 .float_l { padding-right:0; }
+}
